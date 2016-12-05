@@ -86,11 +86,11 @@ LANGUAGES = (
 
 # Facebook Aplication ID used in social_sharing temaplate. Default: ''
 # In order to get the ID create an app in https://developers.facebook.com/
-FACEBOOK_ID             = ''
+FACEBOOK_ID             = '998887930215744'
 
 # Google Analytics ID. Default: ''
 # In order to get the ID create a Google Analytics Acount in https://analytics.google.com/analytics/web/
-ANALYTICS_ID            = ''
+ANALYTICS_ID            = 'UA-28946840-21'
 
 # Setup Data Source Budget link
 DATA_SOURCE_BUDGET      = ''
@@ -102,16 +102,16 @@ DATA_SOURCE_POPULATION  = ''
 DATA_SOURCE_INFLATION   = ''
 
 # Setup Main Entity Web Url
-MAIN_ENTITY_WEB_URL     = ''
+MAIN_ENTITY_WEB_URL     = 'https://www.coruna.es/'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
-MAIN_ENTITY_LEGAL_URL   = ''
+MAIN_ENTITY_LEGAL_URL   = 'https://www.coruna.es/servlet/Satellite?pagename=CorunaPortal/Page/Generico-Page-Generica&cid=1414635500468'
 
 # Setup Main Entity Legal Url (if empty we hide the link)
 MAIN_ENTITY_PRIVACY_URL = ''
 
 # External URL for Cookies Policy (if empty we use out template page/cookies.html)
-COOKIES_URL             = ''
+COOKIES_URL             = 'https://www.coruna.es/servlet/Satellite?pagename=CorunaPortal/Page/Generico-Page-Generica&cid=1414635480786'
 
 # We can define additional URLs applicable only to the theme. These will get added
 # to the project URL patterns list.
