@@ -19,7 +19,7 @@ PAYMENTS_LOADER = 'CorunaPaymentsLoader'
 # ----------------------
 
 # Show Payments section in menu & home options. Default: False.
-SHOW_PAYMENTS = True
+# SHOW_PAYMENTS = True
 
 # Configure 'by area' payment breakdown. Default: ['area', 'payee', 'description']
 # PAYMENTS_BREAKDOWN_BY_AREA = ['area', 'payee', 'description']
@@ -78,10 +78,10 @@ SHOW_TAX_RECEIPT = True
 # Supported languages. Default: ('es', 'Castellano')
 LANGUAGES = (
   ('es', 'Castellano'),
-  ('en', 'English'),
+  # ('en', 'English'),
   # ('ca', 'Catal&agrave;'),
   # ('eu', 'Euskera'),
-  # ('gl', 'Galego'),
+  ('gl', 'Galego'),
 )
 
 # Facebook Aplication ID used in social_sharing temaplate. Default: ''
