@@ -1,1 +1,33 @@
 @import "theme-variables";
+
+// Header
+.main-entity-logo{
+  margin: $grid-gutter-width/2 auto;
+}
+
+.navbar-brand{
+  float: none;
+  margin: $grid-gutter-width 0;
+  font-size: 2em;
+  text-transform: uppercase;
+
+  a{
+    color: $gray-base;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+
+  .navbar-brand{
+    position: static;
+    float: left;
+    width: auto;
+    margin: $grid-gutter-width 0;
+    padding: 2*$grid-gutter-width/3 0 0 $grid-gutter-width/3;
+  }
+}
+
+// Footer
+.main-footer{
+  border-top: 6px solid $brand-primary;
+}

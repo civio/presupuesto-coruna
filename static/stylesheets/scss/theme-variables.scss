@@ -12,9 +12,9 @@ $gray-lightest:         lighten($gray-base, 96%) !default;
 
 $text-color:            #414141;
 
-$brand-primary:         #d32e12;
-$brand-secondary:       #49647A;
-$brand-terciary:        #DDCFC1;
+$brand-primary:         #007aff;
+$brand-secondary:       #c6c6c6;
+$brand-terciary:        #EBEBEB;
 
 $link-color:            $brand-primary;
 $link-hover-color:      $link-color;
@@ -26,14 +26,14 @@ $table-color:           $brand-secondary;
 // Typography
 // -------------
 
-$font-family-sans-serif:  "Source Sans Pro", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  "Roboto", Helvetica, Arial, sans-serif;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-base:        $font-family-sans-serif;
 
 $font-weight-300:         300;
 $font-weight-400:         400;
 $font-weight-600:         600; 
-$font-weight-700:         700; 
+$font-weight-700:         600; 
 
 $headings-font-weight:    $font-weight-600;
 
@@ -50,8 +50,8 @@ $container-large-desktop:  (1050px + $grid-gutter-width);
 // Main Entity Logo
 // -------------
 
-$main-entity-logo-width:   81px;
-$main-entity-logo-height:  68px;
+$main-entity-logo-width:   378px;
+$main-entity-logo-height:  89px;
 
 
 // Navbar
@@ -62,7 +62,7 @@ $navbar-border-radius: 0;
 // Point at which the navbar becomes uncollapsed
 // $grid-float-breakpoint: 992px;  // $screen-md
 
-$dvmi-menu-length: 5;  // Number of items in main menu
+$dvmi-menu-length: 4;  // Number of items in main menu
 
 // Navbar background color
 $navbar-default-bg:       $brand-primary;
@@ -136,8 +136,8 @@ $pagination-active-border:             $brand-secondary;
 // Footer
 // --------------
 
-$footer-color: white;
-$footer-bg: $brand-primary;
+$footer-color: $text-color;
+$footer-bg: $brand-terciary;
 
 
 // Search Form
