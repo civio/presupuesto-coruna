@@ -31,3 +31,30 @@
 .main-footer{
   border-top: 6px solid $brand-primary;
 }
+
+.home-content .options .option>div .icon{
+  opacity: 0.6;
+}
+
+.tax-receipt-content .form-user-incomings h3{
+  font-weight: $font-weight-400;
+}
+
+.form-search-glossary .btn-primary{
+  border-color: darken( $brand-secondary, 15% );
+  background-color: darken( $brand-secondary, 15% );
+
+  &:hover{
+    border-color: $brand-primary;
+    background-color: $brand-primary;
+  }
+}
+
+.form-search-glossary .form-control{
+  border-color: darken( $brand-secondary, 15% );
+}
+
+.glossary-terms h3:before, .glossary-terms h4:before{
+  color: $brand-primary;
+  opacity: 0.6;
+}

@@ -20,8 +20,6 @@ $link-color:            $brand-primary;
 $link-hover-color:      $link-color;
 $link-hover-decoration: underline;
 
-$table-color:           $brand-secondary;
-
 
 // Typography
 // -------------
@@ -75,6 +73,27 @@ $navbar-default-link-active-color:    $brand-primary;
 $navbar-default-link-active-bg:       $brand-terciary;
 
 
+// Footer
+// --------------
+
+$footer-color: $text-color;
+$footer-bg: $brand-terciary;
+
+
+// Page Header
+// --------------
+
+$page-header-bg:            mix( $brand-secondary, white, 12% );
+$page-header-border-color:  $brand-primary;
+
+
+// Panels
+// ---------------
+
+$panel-default-border:      $brand-primary;
+$panel-default-heading-bg:  $brand-primary;
+
+
 // Buttons
 // --------------
 
@@ -126,18 +145,11 @@ $modal-backdrop-opacity:      .75;
 // Pagination
 // --------------
 
-$pagination-color:                     $brand-secondary;
-$pagination-hover-color:               $brand-secondary;
+$pagination-color:                     $brand-primary;
+$pagination-hover-color:               $brand-primary;
 
-$pagination-active-bg:                 $brand-secondary;
-$pagination-active-border:             $brand-secondary;
-
-
-// Footer
-// --------------
-
-$footer-color: $text-color;
-$footer-bg: $brand-terciary;
+$pagination-active-bg:                 $brand-primary;
+$pagination-active-border:             $brand-primary;
 
 
 // Search Form
@@ -146,30 +158,17 @@ $footer-bg: $brand-terciary;
 $search-form-bg: $brand-terciary;
 
 
-// Page Header
-// --------------
-
-$page-header-bg:            mix( $brand-secondary, white, 8% );
-$page-header-border-color:  mix( $brand-secondary, white, 70% );
-
-
 // Budget Stream
 // --------------
 
-$budget-stream-color: $brand-secondary;
+$budget-stream-color: darken( $brand-secondary, 10% );
 
 
 // Year Slider
 // --------------
 
-$slider-bg:     $page-header-bg;
-$slider-color:  $brand-secondary;
-
-
-// Data Panel
-// --------------
-
-$data-panel-color: $brand-secondary;
+$slider-bg:     $brand-terciary;
+$slider-color:  $brand-primary;
 
 
 // Data Sources
@@ -181,5 +180,5 @@ $data-sources-color: $brand-terciary;
 // Sankey Viz
 // --------------
 
-$sankey-budget-color:     saturate( lighten( $brand-secondary, 12% ), 10% );                          // #1F77B4;
-$sankey-execution-color:  saturate( lighten( adjust-hue( $sankey-budget-color, 100% ), 10% ), 10% );  //#E377C2;
+$sankey-budget-color:     $brand-secondary;
+$sankey-execution-color:  $brand-primary;
