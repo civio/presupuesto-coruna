@@ -93,13 +93,13 @@ FACEBOOK_ID             = '998887930215744'
 ANALYTICS_ID            = 'UA-28946840-21'
 
 # Setup Data Source Budget link
-DATA_SOURCE_BUDGET      = ''
+DATA_SOURCE_BUDGET      = 'https://www.coruna.es/portal/es/ayuntamiento/gobierno-abierto/presupuestos'
 
 # Setup Data Source Population link
-DATA_SOURCE_POPULATION  = ''
+DATA_SOURCE_POPULATION  = 'http://www.ine.es/jaxiT3/Datos.htm?t=2868'
 
 # Setup Data Source Inflation link
-DATA_SOURCE_INFLATION   = ''
+DATA_SOURCE_INFLATION   = 'http://www.ine.es/jaxiT3/Tabla.htm?t=10031&L=0'
 
 # Setup Main Entity Web Url
 MAIN_ENTITY_WEB_URL     = 'https://www.coruna.es/'
@@ -107,8 +107,8 @@ MAIN_ENTITY_WEB_URL     = 'https://www.coruna.es/'
 # Setup Main Entity Legal Url (if empty we hide the link)
 MAIN_ENTITY_LEGAL_URL   = 'https://www.coruna.es/servlet/Satellite?pagename=CorunaPortal/Page/Generico-Page-Generica&cid=1414635500468'
 
-# Setup Main Entity Legal Url (if empty we hide the link)
-MAIN_ENTITY_PRIVACY_URL = ''
+# Setup Main Entity Privacy Url (if empty we hide the link)
+MAIN_ENTITY_PRIVACY_URL = 'https://www.coruna.es/servlet/Satellite?pagename=CorunaPortal/Page/Generico-Page-Generica&cid=1414635480786'
 
 # External URL for Cookies Policy (if empty we use out template page/cookies.html)
 COOKIES_URL             = 'https://www.coruna.es/servlet/Satellite?pagename=CorunaPortal/Page/Generico-Page-Generica&cid=1414635480786'
