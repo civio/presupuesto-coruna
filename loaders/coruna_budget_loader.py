@@ -9,12 +9,41 @@ import re
 class CorunaBudgetLoader(SimpleBudgetLoader):
 
     def parse_item(self, filename, line):
+        # Programme codes have changed in 2015, due to new laws. Since the application expects a code-programme
+        # mapping to be constant over time, we are forced to amend budget data prior to 2015.
+        # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
+        programme_mapping = {
+            # old programme: new programme
+            '1520': '1522',     # Conservación y rehabilitación de la edificación
+            '1550': '1539',     # Vías públicas
+            '1610': '1600',     # Alcantarillado
+            '1790': '1729',     # Protección y mejora del medio ambiente. Otros
+            '2300': '2310',     # Asistencia social primaria
+            '2310': '2310',     # Asistencia social primaria
+            '2320': '2310',     # Asistencia social primaria
+            '2330': '2310',     # Asistencia social primaria
+            '3130': '3110',     # Protección de la salubridad pública
+            '3240': '3260',     # Servicios cpmplementarios de educación
+            '3310': '3331',     # Diculgación científica y técnica
+            '3350': '3343',     # Banda Municipal de Música
+            '3390': '3341',     # Instituto Municipal Coruña Espectáculos
+            '9230': '9239',     # Información básica y estadística. Otros
+            '9350': '9321',     # Tribunal económico administrativo municipal
+            '9450': '3342',     # Consorcio promoción música
+            '9460': '4321',     # Consorcio de turismo
+        }
+
         is_expense = (filename.find('gastos.csv')!=-1)
         is_actual = (filename.find('/ejecucion_')!=-1)
         if is_expense:
             # We got 3- or 4- digit functional codes as input, so add a trailing zero
             fc_code = line[3].ljust(4, '0')
             ec_code = line[4][:5]   # Ignore additional digits after the fifth
+
+            # For years before 2015 we check whether we need to amend the programme code
+            year = re.search('municipio/(\d+)/', filename).group(1)
+            if int(year) < 2015:
+                fc_code = programme_mapping.get(fc_code, fc_code)
 
             return {
                 'is_expense': True,
