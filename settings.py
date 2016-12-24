@@ -134,7 +134,21 @@ FEATURED_PROGRAMMES = ['1621', '1710', '3360', '2410', '3110']
 # Overview Settings
 # ----------------------
 
-OVERVIEW_INCOME_NODES = ['42', '45', '30', '39', '33', '32', '53']
+OVERVIEW_INCOME_NODES = [
+							{
+                            	'nodes': [['11', '113']],
+                            	'label.es': 'Impuesto a bienes inmuebles de naturaleza urbana',
+                            	'label.gl': 'Impuesto a bienes inmuebles de naturaleza urbana',
+                            	'link_id': '11'
+                          	},
+                          	{
+                            	'nodes': [['11', '115']],
+                            	'label.es': 'Impuesto sobre vehículos de tracción mecánica',
+                            	'label.gl': 'Impuesto sobre vehículos de tracción mecánica',
+                            	'link_id': '11'
+                            },
+                          	'13', '42', '45', '30', '33'
+                        ]
 
 
 OVERVIEW_EXPENSE_NODES = ['16', '15', '13', '23', '33', '92', '34', '44', '32']
