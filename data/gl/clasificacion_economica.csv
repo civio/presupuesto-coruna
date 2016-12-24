@@ -524,6 +524,7 @@ G,9,4,1,Devolución de fianzas
 #
 # Conceptos específicos de Coruña
 #
+I,1,8,0,"Impuestos directos extinguidos"
 I,3,6,1,"Venta de publicaciones"
 I,3,6,2,"Venta de objetos"
 I,4,7,0,"Transferencias corrientes de empresas privadas"
