@@ -1,2 +1,1 @@
 from coruna_budget_loader import CorunaBudgetLoader
-from coruna_payments_loader import CorunaPaymentsLoader

@@ -12,7 +12,7 @@ MAIN_ENTITY_NAME = 'A Coruña'
 BUDGET_LOADER = 'CorunaBudgetLoader'
 
 # Theme Payments Loader class name. Default: 'PaymentsLoader'
-PAYMENTS_LOADER = 'CorunaPaymentsLoader'
+# PAYMENTS_LOADER = 'CorunaPaymentsLoader'
 
 
 # Show / hide Settings
