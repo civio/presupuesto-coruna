@@ -1,2 +1,2 @@
-# presupuesto-base
-Tema base para la adaptación de DVMI
+# presupuesto-coruna
+Adaptación de DVMI para los presupuestos del Ayuntamiento de A Coruña
