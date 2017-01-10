@@ -14,6 +14,8 @@ class CorunaBudgetLoader(SimpleBudgetLoader):
         # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
         programme_mapping = {
             # old programme: new programme
+            '1340': '1350',     # Protección Civil
+            '1350': '1360',     # Servicio de prevención y extinción de incendios
             '1520': '1522',     # Conservación y rehabilitación de la edificación
             '1550': '1539',     # Vías públicas
             '1610': '1600',     # Alcantarillado
@@ -23,9 +25,10 @@ class CorunaBudgetLoader(SimpleBudgetLoader):
             '2320': '2310',     # Asistencia social primaria
             '2330': '2310',     # Asistencia social primaria
             '3130': '3110',     # Protección de la salubridad pública
-            '3240': '3260',     # Servicios cpmplementarios de educación
+            '3210': '3230',     # Funcionamiento de centros de enseñanza preescolar y primaria
+            '3230': '3260',     # Servicios complementarios de educación
+            '3240': '3260',     # Servicios complementarios de educación
             '3310': '3331',     # Diculgación científica y técnica
-            '3350': '3343',     # Banda Municipal de Música
             '3390': '3341',     # Instituto Municipal Coruña Espectáculos
             '9230': '9239',     # Información básica y estadística. Otros
             '9350': '9321',     # Tribunal económico administrativo municipal
