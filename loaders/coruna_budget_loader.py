@@ -55,7 +55,7 @@ class CorunaBudgetLoader(SimpleBudgetLoader):
                 'ec_code': ec_code[:-2],        # First three digits (everything but last two)
                 'ic_code': line[2].rjust(4, '0') + ("-B" if int(year) >= 2016 else "-A"),  # We add prefixing zeroes and manage changes after 2015
                 'item_number': ec_code[-2:],    # Last two digits
-                'description': line[5],
+                'description': line[5].capitalize().rstrip('.'),
                 'amount': self._parse_amount(line[9 if is_actual else 6])
             }
 
@@ -65,9 +65,9 @@ class CorunaBudgetLoader(SimpleBudgetLoader):
             return {
                 'is_expense': False,
                 'is_actual': is_actual,
-                'ec_code': ec_code[:3],         # First three digits
+                'ec_code': ec_code[:3],          # First three digits
                 'ic_code': '0000',               # All income goes to the root node
-                'item_number': ec_code[-2:],    # Last two digits
-                'description': line[3],
+                'item_number': ec_code[-2:],     # Last two digits
+                'description': line[3].capitalize().rstrip('.'),
                 'amount': self._parse_amount(line[7 if is_actual else 4])
             }
