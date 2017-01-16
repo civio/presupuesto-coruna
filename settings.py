@@ -138,13 +138,13 @@ OVERVIEW_INCOME_NODES = [
 							{
                             	'nodes': [['11', '113']],
                             	'label.es': 'Impuesto a bienes inmuebles de naturaleza urbana',
-                            	'label.gl': 'Impuesto a bienes inmuebles de naturaleza urbana',
+                            	'label.gl': 'Imposto sobre bens inmobles de natureza urbana',
                             	'link_id': '11'
                           	},
                           	{
                             	'nodes': [['11', '115']],
                             	'label.es': 'Impuesto sobre vehículos de tracción mecánica',
-                            	'label.gl': 'Impuesto sobre vehículos de tracción mecánica',
+                            	'label.gl': 'Imposto sobre vehículos de tracción mecánica',
                             	'link_id': '11'
                             },
                           	'13', '42', '45', '30', '33'
