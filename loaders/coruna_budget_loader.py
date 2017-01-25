@@ -30,6 +30,7 @@ class CorunaBudgetLoader(SimpleBudgetLoader):
             '3240': '3260',     # Servicios complementarios de educación
             '3310': '3331',     # Diculgación científica y técnica
             '3390': '3341',     # Instituto Municipal Coruña Espectáculos
+            '4410': '4411',     # Transporte colectivo urbano de viajeros
             '9230': '9239',     # Información básica y estadística. Otros
             '9350': '9321',     # Tribunal económico administrativo municipal
             '9450': '3342',     # Consorcio promoción música
