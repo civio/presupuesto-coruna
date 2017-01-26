@@ -296,7 +296,7 @@ G,1,4,,Outro persoal
 G,1,4,3,Outro persoal
 G,1,4,7,Contribucións a plans e fondos de pensións
 G,1,5,,Incentivos ao rendemento
-G,1,5,0,Productividade
+G,1,5,0,Produtividade
 G,1,5,1,Gratificacións
 G,1,5,2,Outros incentivos ao rendemento
 G,1,5,3,Complemento de dedicación especial
@@ -417,7 +417,7 @@ G,6,1,0,Investimentos en terreos
 G,6,1,9,Outros investimentos de reposición en infraestruturas e bens destinados ao uso xeral
 G,6,2,,Investimento novo asociado ao funcionamento operativo dos servizos
 G,6,2,1,Terreos e bens naturais
-G,6,2,2,Edificios e outras construccións
+G,6,2,2,Edificios e outras construcións
 G,6,2,3,"Maquinaria, instalacións técnicas e utensilios"
 G,6,2,4,Elementos de transporte
 G,6,2,5,Mobiliario
@@ -426,7 +426,7 @@ G,6,2,7,Proxectos complexos
 G,6,2,9,Outros investimentos novos asociados ao funcionamento operativo dos servizos
 G,6,3,,Investimento de reposición asociado ao funcionamento operativo dos servizos
 G,6,3,1,Terreos e bens naturais
-G,6,3,2,Edificios e outras construccións
+G,6,3,2,Edificios e outras construcións
 G,6,3,3,"Maquinaria, instalacións técnicas e utensilios"
 G,6,3,4,Elementos de transporte
 G,6,3,5,Mobiliario
@@ -441,7 +441,7 @@ G,6,5,,Investimentos xestionados para outros entes públicos
 G,6,5,0,Gastos en investimentos xestionados para outros entes públicos
 G,6,8,,Gastos en investimentos de bens patrimoniais
 G,6,8,1,Terreos e bens naturais
-G,6,8,2,Edificios e outras construccións
+G,6,8,2,Edificios e outras construcións
 G,6,8,9,Outros gastos en investimentos de bens patrimoniais
 G,6,9,,Investimentos en bens comunais
 G,6,9,0,Terreos e bens naturais
@@ -531,7 +531,7 @@ I,4,8,0,"De familias e institucións sen fins de lucro"
 I,5,2,0,"Xuros de depósitos"
 I,7,7,0,"De empresas privadas"
 I,7,8,0,"De familias e institucións sen fins de lucro"
-G,1,6,5,"Axudas sociales"
+G,1,6,5,"Axudas sociais"
 G,2,7,0,"Imprevistos e funcións non clasificadas"
 G,4,1,0,"Instituto Municipal Coruña Espectáculos"
 G,4,8,0,"A familias e institucións sen fins de lucro"
