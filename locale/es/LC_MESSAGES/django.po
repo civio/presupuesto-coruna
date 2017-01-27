@@ -64,3 +64,11 @@ msgstr "¿Cómo y en qué gasta el Ayuntamiento de A Coruña?"
 #: templates/welcome/index.html:42
 msgid "Para que tengas una idea general de los ingresos y gastos del Gobierno de Aragón"
 msgstr "Para que tengas una idea general de los ingresos y gastos del Ayuntamiento de A Coruña"
+
+#: templates/shared/data_sources_extra.html:1
+msgid "Las cantidades presupuestadas se refieren a créditos iniciales"
+msgstr "Las cantidades presupuestadas se refieren a créditos iniciales"
+
+#: templates/shared/data_sources_extra.html:2
+msgid "Los porcentajes de ejecución se calculan siempre sobre créditos iniciales"
+msgstr "Los porcentajes de ejecución se calculan siempre sobre créditos iniciales"
