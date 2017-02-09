@@ -72,3 +72,10 @@ msgstr "Las cantidades presupuestadas se refieren a créditos iniciales"
 #: templates/shared/data_sources_extra.html:2
 msgid "Los porcentajes de ejecución se calculan siempre sobre créditos iniciales"
 msgstr "Los porcentajes de ejecución se calculan siempre sobre créditos iniciales"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Coche pequeño"
+msgstr "Coche pequeño (8-12 caballos fiscales)"
+
+msgid "Coche mediano/grande"
+msgstr "Coche mediano/grande (12-16 caballos fiscales)"

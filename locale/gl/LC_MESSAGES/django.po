@@ -66,3 +66,49 @@ msgstr "As cantidades orzadas se refiren a créditos iniciais"
 #: templates/shared/data_sources_extra.html:2
 msgid "Los porcentajes de ejecución se calculan siempre sobre créditos iniciales"
 msgstr "As porcentaxes de execución se calculan sempre sobre créditos iniciais"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Coche pequeño"
+msgstr "Coche pequeno (8-12 cabalos fiscais)"
+
+msgid "Coche mediano/grande"
+msgstr "Coche mediano/grande (12-16 cabalos fiscais)"
+
+msgid "Un adulto y un menor"
+msgstr "Un adulto e un menor"
+
+msgid "Dos adultos"
+msgstr "Dous adultos"
+
+msgid "Dos adultos y un menor"
+msgstr "Dous adultos e un menor"
+
+msgid "Dos adultos y dos menores"
+msgstr "Dous adultos e dos menores"
+
+msgid "Familia numerosa"
+msgstr "Familia grande"
+
+msgid "Tasa de agua, alcantarillado y depuración"
+msgstr "Taxa auga, sumidoiro e depuración"
+
+msgid "Piso situado en Cidade Vella de 80"
+msgstr "Piso situado na Cidade Vella de 80"
+
+msgid "Piso situado en Cidade Vella de 100"
+msgstr "Piso situado na Cidade Vella de 100"
+
+msgid "Piso situado en zona Centro - Juan Flórez de 80"
+msgstr "Piso situado na zona Centro - Juan Flórez de 80"
+
+msgid "Piso situado en zona Centro - Juan Flórez de 100"
+msgstr "Piso situado na zona Centro - Juan Flórez de 100"
+
+msgid "Piso situado en los Rosales de 80"
+msgstr "Piso situado nos Rosales de 80"
+
+msgid "Piso situado en los Rosales de 100"
+msgstr "Piso situado nos Rosales de 100"
+
+msgid "Vivenda Unifamiliar urbanización Elviña - Zapateira"
+msgstr "Vivenda Unifamiliar urbanizacións Elviña - Zapateira"

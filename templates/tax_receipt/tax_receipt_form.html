@@ -1,0 +1,93 @@
+<!--
+<p class="intro-text">{{ _('Puedes escoger el tipo de situación que mejor refleja tu realidad (<a href="#" id="scenario-1">piso pequeño en el casco antiguo</a>, <a href="#" id="scenario-2">piso de nueva construcción</a>, casa unifamiliar <a href="#" id="scenario-3">en el centro</a>, o <a href="#" id="scenario-4">en una urbanización</a>) o modificar cada uno de los elementos de forma independiente.')|safe }}</p>
+-->
+
+<form class="form-user-incomings" action="#" method="get">
+
+  <h3>{{ _('Impuestos') }}</h3>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="select-house">{{ _('Inmueble') }}</label>
+      <select id="select-house" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Piso situado en Cidade Vella de 80') }} m²</option>
+        <option value="1" type="text">{{ _('Piso situado en Cidade Vella de 100') }} m²</option>
+        <option value="2" type="text">{{ _('Piso situado en zona Centro - Juan Flórez de 80') }} m²</option>
+        <option value="3" type="text">{{ _('Piso situado en zona Centro - Juan Flórez de 100') }} m²</option>
+        <option value="4" type="text">{{ _('Piso situado en los Rosales de 80') }} m²</option>
+        <option value="5" type="text">{{ _('Piso situado en los Rosales de 100') }} m²</option>
+        <option value="6" type="text">{{ _('Piso situado en Matogrande de 80') }} m²</option>
+        <option value="7" type="text">{{ _('Piso situado en Matogrande de 100') }} m²</option>
+        <option value="8" type="text">{{ _('Vivenda Unifamiliar urbanización Elviña - Zapateira') }}</option>
+        <option value="9" type="text">{{ _('Piso situado en Mesoiro de 80') }} m²</option>
+        <option value="10" type="text">{{ _('Piso situado en Mesoiro de 100') }} m²</option>
+        <option value="11" type="text">{{ _('Piso situado en Monelos de 80') }} m²</option>
+        <option value="12" type="text">{{ _('Piso situado en Monelos de 100') }} m²</option>
+        <option value="13" type="text">{{ _('Piso situado en Monte Alto 80') }} m²</option>
+        <option value="14" type="text">{{ _('Piso situado en Monte Alto 100') }} m²</option>
+        <option value="15" type="text">{{ _('Piso Situado en Agra del Orzan - Ventorrillo de 80') }} m²</option>
+        <option value="16" type="text">{{ _('Piso Situado en Agra del Orzan - Ventorrillo de 100') }} m²</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('IBI') }}: <span id="select-house-tax"></span></div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-vehicle">{{ _('Vehículo') }}</label>
+      <select id="select-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Coche pequeño') }}</option>
+        <option value="2" type="text">{{ _('Coche mediano/grande') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-vehicle-tax"></span></div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-extra-vehicle">{{ _('Vehículo adicional') }}</label>
+      <select id="select-extra-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Coche pequeño') }}</option>
+        <option value="2" type="text">{{ _('Coche mediano/grande') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-extra-vehicle-tax"></span></div>
+  </div>
+    
+  
+  <h3>{{ _('Tasas') }}</h3>
+
+  <div class="row">
+    <div class="form-group"> 
+      <label for="select-garbage">{{ _('Unidad familiar') }}</label>
+      <select id="select-garbage" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Un adulto') }}</option>
+        <option value="1" type="text" selected="selected">{{ _('Dos adultos') }}</option>
+        <option value="2" type="text">{{ _('Dos adultos y un menor') }}</option>
+        <option value="3" type="text">{{ _('Dos adultos y dos menores') }}</option>
+        <option value="4" type="text">{{ _('Familia numerosa') }}</option>
+      </select>
+      <select id="select-water" class="form-control" style="display: none">
+        <option value="0" type="text" selected="selected"></option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Tasa de basuras') }}: <span id="select-garbage-tax"></span></div>
+    <div class="select-info">{{ _('Tasa de agua, alcantarillado y depuración') }}: <span id="select-water-tax"></span></div>
+  </div>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="select-parking">{{ _('¿Tienes un vado?') }}</label>
+      <select id="select-parking" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('No') }}</option>
+        <option value="1" type="text">{{ _('Sí') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Tasa') }}: <span id="select-parking-tax"></span></div>
+  </div>
+
+</form>
+
+<p id="tax-amount">{{ _('Contribuyes con un total de <strong id="tax-amount-paid"></strong> a los presupuestos del Gobierno de Aragón')|safe }}.</p>
