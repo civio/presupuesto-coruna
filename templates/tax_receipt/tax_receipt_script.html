@@ -19,14 +19,17 @@
     };
 
 
-    // Add extra tax
-    // We can add new taxed to TaxReceipt.taxes object
-    // defining its selector, values array & callback function
-
+    // Add water tax
     TaxReceipt.taxes.water = {
       selector: 'water',
-      values:   [180],
-      callback: TaxReceipt.getSelectTaxPaid
+      values:   [162, 180, 200],
+      callback: function(selector, values) {
+        var index = $('#select-garbage').val() < 3 ? 0 : 1;
+        if($('#select-house').val() == 8){
+          index++;
+        }
+        return values[index];
+      }
     }
 
 
