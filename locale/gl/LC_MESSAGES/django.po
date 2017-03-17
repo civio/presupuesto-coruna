@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-18 12:14+0100\n"
-"PO-Revision-Date: 2017-01-26 22:14+0100\n"
+"PO-Revision-Date: 2017-03-17 12:51+0100\n"
 "Language: gl_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #: templates/base.html:4 templates/shared/social_sharing.html:5
 msgid "Presupuestos del Gobierno de Aragón"
@@ -61,7 +61,7 @@ msgstr "Para lle dar unha idea xeral de ingresos e gastos no Concello da Coruña
 
 #: templates/shared/data_sources_extra.html:1
 msgid "Las cantidades presupuestadas se refieren a créditos iniciales"
-msgstr "As cantidades orzadas se refiren a créditos iniciais"
+msgstr "As cantidades orzadas refírense a créditos iniciais"
 
 #: templates/shared/data_sources_extra.html:2
 msgid "Los porcentajes de ejecución se calculan siempre sobre créditos iniciales"
