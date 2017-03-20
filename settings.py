@@ -168,7 +168,7 @@ ADJUST_INFLATION_IN_OVERVIEW = False
 # SHOW_OVERVIEW_SUBTOTALS = True
 
 # Calculate budget indicators (True), or show/hide the ones hardcoded in HTML (False). Default: True.
-# CALCULATE_BUDGET_INDICATORS = False
+CALCULATE_BUDGET_INDICATORS = False
 
 
 # Treemap Settings
