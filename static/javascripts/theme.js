@@ -16,7 +16,7 @@ $(document).ready(function(){
   var addBudgetClarification = function() {
     var str = {
       'es': 'Las cantidades presupuestadas se refieren a créditos iniciales.',
-      'gl': 'As cantidades orzadas se refiren a créditos iniciais.'
+      'gl': 'As cantidades orzadas refírense a créditos iniciais.'
     };
     var cont = $('.budget-totals').find('small');
     if (cont.size() > 0) {
