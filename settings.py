@@ -12,14 +12,14 @@ MAIN_ENTITY_NAME = 'A Coruña'
 BUDGET_LOADER = 'CorunaBudgetLoader'
 
 # Theme Payments Loader class name. Default: 'PaymentsLoader'
-# PAYMENTS_LOADER = 'CorunaPaymentsLoader'
+PAYMENTS_LOADER = 'CorunaPaymentsLoader'
 
 
 # Show / hide Settings
 # ----------------------
 
 # Show Payments section in menu & home options. Default: False.
-# SHOW_PAYMENTS = True
+SHOW_PAYMENTS = True
 
 # Configure 'by area' payment breakdown. Default: ['area', 'payee', 'description']
 # PAYMENTS_BREAKDOWN_BY_AREA = ['area', 'payee', 'description']
