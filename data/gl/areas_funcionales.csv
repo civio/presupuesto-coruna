@@ -93,6 +93,7 @@
 4,3,0,0,"Administración xeral de comercio, turismo e pequenas e medianas empresas"
 4,3,1,0,"Comercio"
 4,3,1,2,"Mercados, abastos e lonxas"
+4,3,1,3,Comercio ambulante
 4,3,2,0,"Información e promoción turística"
 4,3,2,1,"Consorcio de turismo"
 4,3,3,0,"Desenvolvemento empresarial"
@@ -105,6 +106,7 @@
 4,5,3,0,"Estradas"
 4,5,4,0,"Camiños veciñais"
 4,5,9,0,"Outras infraestruturas"
+4,6,2,0,Investigación e estudos relacionados cos servizos públicos
 4,9,1,0,"Sociedade da información"
 4,9,3,0,"Protección de consumidores e usuarios"
 9,1,2,0,"Órganos de goberno"

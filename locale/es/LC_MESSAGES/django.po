@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-18 12:14+0100\n"
-"PO-Revision-Date: 2017-06-02 02:31+0200\n"
+"PO-Revision-Date: 2017-06-14 23:35+0200\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,3 +81,7 @@ msgstr "Coche mediano/grande (12-16 caballos fiscales)"
 #: templates/payments/index.html:25
 msgid "Hay <strong id=\"payments-size\"></strong> pagos que suman un total de <strong id=\"payments-total\"></strong> en <span id=\"payments-years\"></span>"
 msgstr "Hay <strong id=\"payments-size\"></strong> pagos que suman un total de <strong id=\"payments-total\"></strong>"
+
+# TODO: temporary
+msgid "a día de hoy"
+msgstr "a 12 de junio"
