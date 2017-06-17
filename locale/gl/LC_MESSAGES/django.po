@@ -116,10 +116,6 @@ msgstr "Vivenda Unifamiliar urbanizacións Elviña - Zapateira"
 msgid "Los datos corresponden al primer trimestre de 2017. Se actualizarán durante el transcurso del año."
 msgstr "Os datos son do primeiro trimestre de 2017. Serán actualizados durante o curso do ano."
 
-# TODO: temporary, while 2017 budget is not reaady
-msgid "Hay <strong id=\"payments-size\"></strong> pagos que suman un total de <strong id=\"payments-total\"></strong> en <span id=\"payments-years\"></span>"
-msgstr "Hai <strong id=\"payments-size\"></strong> pagos que suman un total de <strong id=\"payments-total\"></strong>"
-
 # TODO: temporary
 msgid "a día de hoy"
 msgstr "a 12 de xuño"

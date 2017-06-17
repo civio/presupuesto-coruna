@@ -77,11 +77,6 @@ msgstr "Coche pequeño (8-12 caballos fiscales)"
 msgid "Coche mediano/grande"
 msgstr "Coche mediano/grande (12-16 caballos fiscales)"
 
-# TODO: temporary, while 2017 budget is not reaady
-#: templates/payments/index.html:25
-msgid "Hay <strong id=\"payments-size\"></strong> pagos que suman un total de <strong id=\"payments-total\"></strong> en <span id=\"payments-years\"></span>"
-msgstr "Hay <strong id=\"payments-size\"></strong> pagos que suman un total de <strong id=\"payments-total\"></strong>"
-
 # TODO: temporary
 msgid "a día de hoy"
 msgstr "a 12 de junio"
