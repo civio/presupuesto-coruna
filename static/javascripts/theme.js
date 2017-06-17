@@ -4,8 +4,8 @@ $(document).ready(function(){
   // Custom warnings and notes
   var addChartsAlert = function(selector) {
     var str = {
-      'es': 'Los datos de ejecución del año 2016 son provisionales y están pendientes del cierre de ejercicio.<br/>Los datos de 2017 están actualizados a 12 de junio.',
-      'gl': 'Os datos de execución do ano 2016 son provisionais e están pendentes do peche de exercicio.<br/>Os datos de 2017 están actualizados ao 12 de xuño.'
+      'es': 'Los datos de 2017 están actualizados a 12 de junio.',
+      'gl': 'Os datos de 2017 están actualizados ao 12 de xuño.'
     };
     var cont = $(selector);
     if (cont.size() > 0) {
