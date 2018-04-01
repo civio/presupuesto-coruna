@@ -27,7 +27,6 @@ class CorunaPaymentsLoader(PaymentsLoader):
             'fc_code': None,
             'ec_code': None,
             'date': line[1].strip(),
-            'contract_type': None,
             'payee': payee,
             'anonymized': anonymized,
             'description': line[5].strip(),
