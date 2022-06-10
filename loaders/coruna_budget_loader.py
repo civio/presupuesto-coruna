@@ -8,6 +8,10 @@ import re
 
 class CorunaBudgetLoader(SimpleBudgetLoader):
 
+    # We override this to allow a different classification per year
+    def get_institutional_classification_path(self, path):
+        return os.path.join(path, 'clasificacion_organica.csv')
+
     def parse_item(self, filename, line):
         # Programme codes have changed in 2015, due to new laws. Since the application expects a code-programme
         # mapping to be constant over time, we are forced to amend budget data prior to 2015.
@@ -54,7 +58,7 @@ class CorunaBudgetLoader(SimpleBudgetLoader):
                 'is_actual': is_actual,
                 'fc_code': fc_code,
                 'ec_code': ec_code[:-2],        # First three digits (everything but last two)
-                'ic_code': line[2].rjust(4, '0') + ("-B" if int(year) >= 2016 else "-A"),  # We add prefixing zeroes and manage changes after 2015
+                'ic_code': line[2].rjust(4, '0'),
                 'item_number': ec_code[-2:],    # Last two digits
                 'description': self._spanish_titlecase(line[5]).rstrip('.'),
                 'amount': self._parse_amount(line[9 if is_actual else 6])
