@@ -28,8 +28,8 @@ $(document).ready(function(){
     }
   };
 
-  addChartsAlert('.policies-chart');
-  addChartsAlert('.sankey-container');
+  // addChartsAlert('.policies-chart');
+  // addChartsAlert('.sankey-container');
 
   addBudgetClarification();
 
